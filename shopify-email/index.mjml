@@ -30,14 +30,7 @@
                     </mj-text>
                 </mj-column>
             </mj-section>
-            <mj-raw>
-                <!--3 Line Divider-->
-            </mj-raw>
-            <mj-section>
-                <mj-column>
-                    <mj-image src="http://127.0.0.1:5500/shopify-email/assets/3-lines.png">
-                </mj-column>
-            </mj-section>
+            <mj-include path="./components/3-lines.mjml">
         <mj-include path="./components/footer.mjml">
     </mj-body>
 </mjml>
