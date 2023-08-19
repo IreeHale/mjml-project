@@ -11,6 +11,10 @@
                 padding-left: 30px;
                 padding-right: 30px;
             }
+            .link-color{
+                text-decoration: none;
+                color: #004c3f;
+            }
         </mj-style>
     </mj-head>
     <mj-body background-color="#f2f2f2">
@@ -21,16 +25,32 @@
             <mj-section>
                 <mj-column  padding="20px 0 30px 0">
                     <mj-text css-class="header-title shopify-green-text" 
-                    font-size="58px" font-weight="bold" color="#004c3f">
+                    font-size="58px" font-weight="bold">
                         What's New
                     </mj-text>
                     <mj-text css-class="header-title shopify-green-text" 
-                    font-size="18px" font-weight="noral" color="#004c3f">
+                    font-size="18px" font-weight="normal">
                         July 18, 2028
                     </mj-text>
                 </mj-column>
             </mj-section>
             <mj-include path="./components/3-lines.mjml">
+            <mj-raw>
+                <!-- Header -->
+            </mj-raw>
+            <mj-section>
+                <mj-column>
+                    <mj-image alt="shopify-logo" 
+                    href="https://shopify.com/blog" padding-bottom="20px"
+                    src="http://127.0.0.1:5500/shopify-email/assets/image.jpg">
+                </mj-column>
+                <mj-column>
+                   <mj-text font-size="24px"
+                   font-weight="bold" padding-bottom="20px">
+                   <a href="https://shopify.com/blog" class="link-color">Find more ways to sell with pre-orders</a>
+                   </mj-text>
+                </mj-column>
+            </mj-section>
         <mj-include path="./components/footer.mjml">
     </mj-body>
 </mjml>
