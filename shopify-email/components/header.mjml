@@ -1,0 +1,10 @@
+<mj-raw>
+    <!-- Header -->
+</mj-raw>
+<mj-section css-class="header">
+    <mj-column>
+        <mj-image width="121px" alt="shopify-logo" 
+        href="https://shopify.com" align="left" 
+        src="http://127.0.0.1:5500/shopify-email/assets/logo.png">
+    </mj-column>
+</mj-section>

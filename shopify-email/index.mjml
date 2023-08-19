@@ -1,9 +1,43 @@
 <mjml>
-    <mj-body>
-       <mj-section>
-            <mj-column width="600px" background-color="red">
-                <mj-text>Testing</mj-text>
-            </mj-column>
-       </mj-section>
+    <mj-head>
+        <mj-style>
+            *{box-sizing: border-box;}
+        </mj-style>
+        <mj-style inline="inline">
+            .header{
+                background-color: #004c3f;
+            }
+            .section-padding{
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#f2f2f2">
+    <mj-raw>
+        <!--Top section-->
+    </mj-raw>
+        <mj-include path="./components/header.mjml">
+            <mj-section>
+                <mj-column  padding="20px 0 30px 0">
+                    <mj-text css-class="header-title shopify-green-text" 
+                    font-size="58px" font-weight="bold" color="#004c3f">
+                        What's New
+                    </mj-text>
+                    <mj-text css-class="header-title shopify-green-text" 
+                    font-size="18px" font-weight="noral" color="#004c3f">
+                        July 18, 2028
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-raw>
+                <!--3 Line Divider-->
+            </mj-raw>
+            <mj-section>
+                <mj-column>
+                    <mj-image src="http://127.0.0.1:5500/shopify-email/assets/3-lines.png">
+                </mj-column>
+            </mj-section>
+        <mj-include path="./components/footer.mjml">
     </mj-body>
 </mjml>
